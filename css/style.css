@@ -6,11 +6,11 @@ body, html {
     background-size: cover !important;
 }
 .overlay {
-    background: #000;
+    background: #FFF;
     position: absolute;
     height: 100%;
     width: 100%;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 .container {
     height: 100%;
@@ -19,7 +19,7 @@ body, html {
     text-align: center;
 }
 .logo {
-    top: 30%;
+    top: 10%;
     position: absolute;
     text-align: center;
     width: 100%;
@@ -27,8 +27,6 @@ body, html {
 
 .logo img {
   max-width: 70%;
-    border: 10px solid rgb(255, 255, 255);
-    border-radius: 100%;
 }
 
 .footer {
@@ -41,8 +39,7 @@ body, html {
     width: 100%;
 }
 .footer h3 {
-    color: #FFF;
-    font-family: "Montserrat",sans-serif;
+    color: #333;
     font-weight: normal;
 }
 
